@@ -1,0 +1,61 @@
+body {
+    margin-top: 40px; 
+  }
+  
+  body::before {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  .btn {
+    display: block;
+    width: 50%;
+    padding: 10px 15px;
+    border: 0;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+
+  #my-form {
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+
+  #my-form label {
+    display: block;
+  }
+
+  ul li{
+    list-style: none;
+    width: 100%;
+  }
+  
+  .container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+  }
+
+  @media (min-width: 576px) {
+    body::before {
+        content: "EXPENCE TRACKER";
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body::before {
+        content: "EXPENCE TRACKER";
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: "EXPENCE TRACKER";
+    }
+  }
